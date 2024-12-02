@@ -1,7 +1,7 @@
 PowerBI Dashboard to view trend of Singapore Housing Development Board (HDB) Prices
 
 Steps Undertaken
-1.	Loaded 5 datasets from “https://data.gov.sg/collections/189/view” into PowerBI
+1.	Loaded 5 datasets from https://data.gov.sg/collections/189/view into PowerBI
 2.	Dataset from 1990-1999 had error in loading as Block Number was parsed as Integer but some values contain alphabets (350A)
    
     a.	Changed data type of column into Text format to resolve
@@ -9,7 +9,7 @@ Steps Undertaken
 
     a.	Datasets all had identical data structures and shapes
     b.	Some datasets had “lease_commence_date” column which others did not – removed this column after appending
-4.	Scraped Data from “https://www.citypopulation.de/en/singapore/cities/”
+4.	Scraped Data from https://www.citypopulation.de/en/singapore/cities/
 
     a.	Used UPPER() to make Town format consistent with HDB data
   	
@@ -23,7 +23,7 @@ Steps Undertaken
   	
         ii.	Central Area = Newton + Novena + Downtown Core + Singapore River + Tanglin
   	
-        iii.    Lim Chu Kang = Scraped separately from “https://www.citypopulation.de/en/singapore/admin/lim_chu_kang/40201__lim_chu_kang/”
+        iii.    Lim Chu Kang = Scraped separately from https://www.citypopulation.de/en/singapore/admin/lim_chu_kang/40201__lim_chu_kang/
   	
     e.	Name final table town_population
   
